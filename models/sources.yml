@@ -1,0 +1,15 @@
+# sources.yml
+
+version: 2
+
+sources:
+  - name: airstats  # Replace with your source name
+    database: raw_airstats  # Replace with your Snowflake database name
+    schema: airstats
+    tables:
+      - name: airports
+      - name: airport_frequencies
+      - name: countries
+      - name: navaids
+      - name: regions
+      - name: runways
